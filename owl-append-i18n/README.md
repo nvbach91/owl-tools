@@ -9,7 +9,7 @@ Import translations of `rdfs:label` and `rdfs:comment` of ontology entities from
     http://example.net/MyAnotherClass	owl:Class	rdfs:comment	http://example.net/SecondOntology	My Another Class	Min Andre Klassen	Toinen Luokani	Min Andra Klass	Min Anden Klasse
     ```
 
-- and a folder of OWL ontologies (.owl, application/rdf+xml) like this
+- and a folder of OWL ontologies (`.owl`, `application/rdf+xml`) like this
     ```
     ontologies
     \- first-ontology.owl
@@ -30,7 +30,7 @@ Import translations of `rdfs:label` and `rdfs:comment` of ontology entities from
 - Values in the `type` and `property` columns in the CSV must be prefixed, e.g. `owl:Class`, `owl:NamedIndividual`, `rdfs:label`, `rdfs:comment`
 
 ## Limitations
-- this tool can't handle multi-line values and assumes your rdfs:comment and rdfs:label values are one-lined
+- this tool can't handle multi-line values and assumes your `rdfs:comment` and `rdfs:label` values are one-lined
 
 ## Installation
 - You will need `node.js` and `npm` to install and run this program
