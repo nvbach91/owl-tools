@@ -1,4 +1,4 @@
-# OWL Annotation Appender
+# OWL Annotation I18N Appender
 Import translations of `rdfs:label` and `rdfs:comment` of ontology entities from a CSV table to your ontologie files
 
 ## Usage
